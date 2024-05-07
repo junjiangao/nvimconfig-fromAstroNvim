@@ -11,4 +11,5 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.recipes.neovide" },
+  { import = "astrocommunity.pack.cpp" },
 }
