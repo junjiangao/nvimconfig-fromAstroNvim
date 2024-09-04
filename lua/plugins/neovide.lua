@@ -13,6 +13,7 @@ return {
         guifontwide = "Sarasa Fixed SC Semi-Bold:h12:#e-subpixelantialias",
         -- line spacing
         linespace = 0,
+        cmdheight = 1,
       },
       g = { -- configure vim.g variables
         -- configure scaling
