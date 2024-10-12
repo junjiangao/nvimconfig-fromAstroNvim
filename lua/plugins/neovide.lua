@@ -15,15 +15,6 @@ return {
         linespace = 0,
         cmdheight = 1,
       },
-      g = { -- configure vim.g variables
-        -- configure scaling
-        neovide_scale_factor = 1.0,
-        -- configure padding
-        neovide_padding_top = 0,
-        neovide_padding_bottom = 0,
-        neovide_padding_right = 0,
-        neovide_padding_left = 0,
-      },
     },
   },
 }
