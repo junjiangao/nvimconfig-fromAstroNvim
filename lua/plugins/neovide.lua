@@ -8,9 +8,8 @@ return {
   opts = {
     options = {
       opt = { -- configure vim.opt options
-        -- configure font
-        guifont = "FiraCode Nerd Font Mono:h12:#e-subpixelantialias",
-        guifontwide = "Sarasa Fixed SC Semi-Bold:h12:#e-subpixelantialias",
+        -- configure font 中文描述
+        guifont = "FiraCode Nerd Font Mono,LXGW WenKai Mono:h12:#e-subpixelantialias",
         -- line spacing
         linespace = 0,
         cmdheight = 1,
