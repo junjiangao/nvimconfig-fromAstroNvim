@@ -1,7 +1,7 @@
 local home_dir = os.getenv "HOME"
 
 -- 根据条件设置 loaded_node_provider
-local node_provider = home_dir == "/root" and 0 or 1
+local node_provider = home_dir == "/root" and 0 or nil
 
 ---@type LazySpec
 return {
