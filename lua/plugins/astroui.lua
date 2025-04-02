@@ -17,38 +17,8 @@ return {
       init = { -- this table overrides highlights in all themes
         -- Normal = { bg = "#000000" },
       },
-      onedark_vivid = { -- a table of overrides/changes when applying the astrotheme theme
+      astrodark = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
-      },
-    },
-    status = {
-      -- Configure attributes of components defined in the `status` API. Check the AstroNvim documentation for a complete list of color names, this applies to colors that have `_fg` and/or `_bg` names with the suffix removed (ex. `git_branch_fg` as attributes from `git_branch`).
-      attributes = {
-        git_branch = { bold = true },
-      },
-      -- Configure colors of components defined in the `status` API. Check the AstroNvim documentation for a complete list of color names.
-      colors = {
-        git_branch_fg = "#ABCDEF",
-      },
-      -- Configure which icons that are highlighted based on context
-      icon_highlights = {
-        -- enable or disable breadcrumb icon highlighting
-        breadcrumbs = false,
-        -- Enable or disable the highlighting of filetype icons both in the statusline and tabline
-        file_icon = {
-          tabline = function(self) return self.is_active or self.is_visible end,
-          statusline = true,
-        },
-      },
-      -- Configure characters used as separators for various elements
-      separators = {
-        none = { "", "" },
-        left = { "", " " },
-        right = { " ", "" },
-        center = { " ", " " },
-        tab = { "", "" },
-        breadcrumbs = "  ",
-        path = "  ",
       },
     },
     -- Icons can be configured throughout the interface
